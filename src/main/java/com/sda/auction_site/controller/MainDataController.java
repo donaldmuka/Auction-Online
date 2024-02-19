@@ -15,7 +15,7 @@ import org.springframework.web.bind.annotation.*;
 import java.security.Principal;
 import java.util.ArrayList;
 import java.util.List;
-import java.util.Set;
+
 
 
 @RestController
@@ -70,7 +70,7 @@ public class MainDataController {
         }
 
 
-//        auctionService.saveAuction(finalAuction);
+
         return new AppUser();
 
     }

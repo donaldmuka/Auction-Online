@@ -39,6 +39,7 @@ public class AdminController {
 
     @GetMapping("auction/all")
     public ResponseEntity<?> getAllAuctions(){
+        System.out.println("");
 
         return ResponseEntity.ok().body(auctionService.listActiveAuctions());
     }
